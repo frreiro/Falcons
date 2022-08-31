@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check.CheckListData"
+    android:background="@color/preto">
+
+    <ImageView
+        android:id="@+id/image_voltar"
+        android:layout_width="30dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="voltar"
+        android:focusable="true"
+        android:src="@drawable/ic_seta_voltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/edosz"
+        android:gravity="right"
+        android:text="CHECKLIST"
+        android:textColor="@color/branco"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_voltar"
+        app:layout_constraintTop_toTopOf="@+id/image_voltar" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/edosz"
+        android:gravity="center"
+        android:hint="Data do teste"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/checklist_ic_calendario" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="50dp"
+        android:onClick="next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtData"
+        app:srcCompat="@drawable/ic_seta_ir" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

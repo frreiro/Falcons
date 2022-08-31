@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "62689202424",
+    "firebase_url": "https://falcons-ufformula-default-rtdb.firebaseio.com",
+    "project_id": "falcons-ufformula",
+    "storage_bucket": "falcons-ufformula.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62689202424:android:ed548b7c0ed1100768ab0d",
+        "android_client_info": {
+          "package_name": "com.example.falcons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62689202424-4hdtigen8aiel3tvinr31bp6674mu701.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpvAirtRCi4Vbe1NG2J3yMzbKu8oGuT24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62689202424-4hdtigen8aiel3tvinr31bp6674mu701.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62689202424:android:2767194307ea4ee568ab0d",
+        "android_client_info": {
+          "package_name": "com.exemple.falcons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62689202424-4hdtigen8aiel3tvinr31bp6674mu701.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpvAirtRCi4Vbe1NG2J3yMzbKu8oGuT24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62689202424-4hdtigen8aiel3tvinr31bp6674mu701.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

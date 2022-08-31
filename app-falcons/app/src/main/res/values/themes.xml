@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Checklist" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/preto</item>
+        <item name="colorAccent">@color/branco</item>
+    </style>
+
+    <style name="Theme.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/card_color</item>
+        <item name="colorAccent">@color/card_color</item>
+    </style>
+
+
+</resources>

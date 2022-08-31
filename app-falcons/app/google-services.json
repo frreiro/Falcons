@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "659647862933",
+    "firebase_url": "https://bds-falcons-default-rtdb.firebaseio.com",
+    "project_id": "bds-falcons",
+    "storage_bucket": "bds-falcons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659647862933:android:b1ccc2c1108e6d2ac9a39c",
+        "android_client_info": {
+          "package_name": "com.example.falcons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659647862933-stvrqhs4leu2iu3v6t5eq6ag1vd8nhv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZFMluHg2UJk0_z6Lgg9VAf3ZAugM6WhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659647862933-stvrqhs4leu2iu3v6t5eq6ag1vd8nhv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659647862933:android:5ca0350deec0fc49c9a39c",
+        "android_client_info": {
+          "package_name": "com.example.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659647862933-stvrqhs4leu2iu3v6t5eq6ag1vd8nhv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZFMluHg2UJk0_z6Lgg9VAf3ZAugM6WhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659647862933-stvrqhs4leu2iu3v6t5eq6ag1vd8nhv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

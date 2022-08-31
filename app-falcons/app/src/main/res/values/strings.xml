@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">FALCONS</string>
+    <string name="montagem">Instrução
+        de Montagem</string>
+
+
+    // nao remover
+    <string name="game_view_content_description">Game view</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string-array name="array_list_check">
+        <item>Painel</item>
+        <item>Cinto</item>
+        <item>Banco</item>
+        <item>Pneus</item>
+        <item>Combustivel</item>
+        <item>Freio</item>
+        <item>Nivel de óleo</item>
+        <item>Nível de água</item>
+        <item>Alinhamento</item>
+        <item>Ruídos</item>
+        <item>Vazamentos</item>
+        <item>Motor</item>
+        <item>Volante</item>
+        <item>Freio de mão</item>
+        <item>Carroceria</item>
+        <item>Nível de arrefecimento</item>
+        <item>Chave extra</item>
+    </string-array>
+
+
+    //Aerodinamica
+
+    // Titulos
+    <string-array name="aero_titulo_array">
+        <item>Bico</item>
+        <item>Carenagem Lateral</item>
+    </string-array>
+    // Descrições
+    <string-array name="aero_descricao_array">
+        <item>Inspecionar se há trincas e danos em sua superfície</item>
+        <item>Verificar se há danos </item>
+    </string-array>
+    // Periodicidade
+    <string-array name="aero_periodicidade_array">
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+    </string-array>
+    // FIM AERODINAMICA
+
+    // Chassi
+
+    // Titulos
+    <string-array name="chassi_titulo_array">
+        <item>Chassi</item>
+        <item>Tubos</item>
+        <item>Atenuador de Impacto</item>
+    </string-array>
+    // Descrições
+    <string-array name="chassi_descricao_array">
+        <item>Verificar possivel oxidação</item>
+        <item>Checar local de armazenamento e verificar possivel oxidação</item>
+        <item>Inspecionar danos na espuma </item>
+    </string-array>
+    // Periodicidade
+    <string-array name="chassi_periodicidade_array">
+        <item>Trimensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+    </string-array>
+    // FIM CHASSI
+
+    // Elétrica
+
+    // Titulos
+    <string-array name="eletrica_titulo_array">
+        <item>Chicote</item>
+        <item>Retificador de tensão </item>
+        <item>Caixa de Relê</item>
+        <item>Master Swicth</item>
+        <item>Painel de Controle</item>
+        <item>Bobina</item>
+        <item>Bateria</item>
+        <item>Luz de freio</item>
+        <item>Circuito Eletrônico</item>
+    </string-array>
+    // Descrições
+    <string-array name="eletrica_descricao_array">
+        <item>Inspeção visual de possíveis avarias nos conduítes e de possíveis avarias nos fios</item>
+        <item>Inspeção de possíveis avarias</item>
+        <item>Inspeção de possíveis avarias</item>
+        <item>Inspeção de funcionamento</item>
+        <item>Inspeção de possíveis avarias e verificar se todos os botões estão devidamente encaixados</item>
+        <item>Inspeção de possíveis avarias</item>
+        <item>Verificar tensão e corrente e trocar o fluído da bateria</item>
+        <item>Verificar se a luz está acionando</item>
+        <item>Verificar se todos os componentes estão acionando</item>
+    </string-array>
+    // Periodicidade
+    <string-array name="eletrica_periodicidade_array">
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+    </string-array>
+    // FIM ELÉTRICA
+
+    // Freio
+
+    // Titulos
+    <string-array name="freio_titulo_array">
+        <item>Disco de Freio</item>
+        <item>Linha de Freio Dianteira</item>
+        <item>Linha de Freio Traseira</item>
+        <item>Pedal Box</item>
+        <item>Assento</item>
+        <item>Encosto</item>
+    </string-array>
+    // Descrições
+    <string-array name="freio_descricao_array">
+        <item>Verificar se há trincas ou danos, verificar pastilha de freio e observar se o componente esta oxidando</item>
+        <item>Verificar a existência de vazamentos e substituir o fluído de freio</item>
+        <item>Verificar a existência de vazamentos e substituir o fluído de freio</item>
+        <item>Inspecionar se há trincas nos pedais e verificar se há folgas no dispositivo</item>
+        <item>Verificar se há trincas no dispositivo e vistoriar se há folga</item>
+        <item>Verificar se há trincas no dispositivo e vistoriar se há folga</item>
+    </string-array>
+    // Periodicidade
+    <string-array name="freio_periodicidade_array">
+        <item>Mensalmente</item>
+        <item>Semanalmente</item>
+        <item>Semanalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+    </string-array>
+    // FIM FREIO
+
+    // PowerTrain
+
+    // Titulos
+    <string-array name="power_titulo_array">
+        <item>Motor</item>
+        <item>Escape</item>
+        <item>Admissão</item>
+        <item>Linha de Combustível</item>
+        <item>Arrefecimento</item>
+        <item>Drivetrain</item>
+        <item>Troca de Marcha</item>
+    </string-array>
+    // Descrições
+    <string-array name="power_descricao_array">
+        <item>Troca de oleo e troca de água </item>
+        <item>Inspeção de possíveis avarias</item>
+        <item>Realizar a limpeza do filtro de ar e verificar se há vazamento de ar no conjunto  </item>
+        <item>Troca do filtro de combustivel e inspecionar se há vazamentos </item>
+        <item>Verificar o acionamento da ventoinha e verificar temperatura do fluído </item>
+        <item>Lubrificar os componentes e verificar as condições dos rolamentos </item>
+        <item>Verificar se há folgas </item>
+
+    </string-array>
+    // Periodicidade
+    <string-array name="power_periodicidade_array">
+        <item>Semestralmente</item>
+        <item>Alterar</item>
+        <item>Semestralmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Alterar</item>
+        <item>Alterar</item>
+    </string-array>
+    // FIM POWERTRAIN
+
+    // Suspensão
+
+    // Titulos
+    <string-array name="susp_titulo_array">
+        <item>Bandejas </item>
+        <item>Manga</item>
+        <item>Amortecedor</item>
+        <item>ARB</item>
+        <item>Toe Link</item>
+        <item>Rodas </item>
+        <item>Cubo de Rodas </item>
+        <item>Pneu</item>
+        <item>Caixa de Direção</item>
+        <item>Coluna de Direção</item>
+        <item>Volante</item>
+        <item>Tie Rod</item>
+    </string-array>
+    // Descrições
+    <string-array name="susp_descricao_array">
+        <item>Verificar se o componente está oxidado, inspecionar se o dispositivo está empenado e inspecionar a condição dos terminais rotulares </item>
+        <item>Verificação das condições das soldas e inspecionar as condições dos rolamentos </item>
+        <item>Revisar conjunto de mola amortecedor  </item>
+        <item>Verificar se há folgas e inspecionar a condição dos terminais rotulares</item>
+        <item>Inspecionar a existência de oxidação no tubo e vistoriar a condição dos terminais rotulares </item>
+        <item>Verificar se há empenamento do componente</item>
+        <item>Verificar a rotação entre a manga e o cubo </item>
+        <item>Calibrar os pneus e conferir a altura do sulco do pneu</item>
+        <item>Inspecionar a existência de folgas e verificar as condições dos rolamentos  </item>
+        <item>Inspecionar a existência de folgas e verificar as condições dos rolamentos </item>
+        <item>Verificar o funcionamento do engate rápido </item>
+        <item>Verificar se o tubo está oxidado e inspecionar a condição dos terminais rotulares </item>
+
+
+    </string-array>
+    // Periodicidade
+    <string-array name="susp_periodicidade_array">
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Anualmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+        <item>Mensalmente</item>
+    </string-array>
+    // FIM SUSPENSÃO
+
+
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"    android:background="@color/preto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/pequena_logo" />
+
+        </RelativeLayout>
+
+            // primeira linha
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRa"
+            android:layout_width="135dp"
+            android:layout_height="159dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:onClick="startRA"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_realidade_aumentada"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/realidade_aumentada" />
+
+
+                <TextView
+                    android:id="@+id/textRa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="RA"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            // segunda linha
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardTools"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="2"
+            android:layout_gravity="center"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="startFerramentas"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_ferramentas"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ferramentas" />
+
+
+                <TextView
+                    android:id="@+id/textTools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="Ferramentas"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMonta"
+            android:layout_width="135dp"
+            android:layout_height="159dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="startMontagem"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardRa">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_montagem"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/montagem" />
+
+
+                <TextView
+                    android:id="@+id/textMontagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="Montagem"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+            // terceira linha
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPart"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="startPart"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTools">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_part_numbers"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/part_number" />
+
+
+                <TextView
+                    android:id="@+id/textPartNumbers"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="Part Numbers"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardManu"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="startManutencao"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardMonta">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_manutecao"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/manutencao" />
+
+
+                <TextView
+                    android:id="@+id/textManutencao"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="MANUTENÇÃO"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+            // quarta linha
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCheck"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="startChecklist"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardPart">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/image_checklist"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/checklist" />
+
+
+                <TextView
+                    android:id="@+id/textChecklist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/americancaptain"
+                    android:gravity="center"
+                    android:text="Checklist"
+                    android:textColor="@color/branco"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
+
+
+

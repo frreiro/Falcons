@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manutencao.ManutencaoSetores"
+    android:background="@color/preto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_voltar"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foregroundGravity="center_vertical"
+            android:src="@drawable/ic_seta_voltar"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/edosz"
+            android:gravity="center_horizontal"
+            android:text="Setores"
+            android:textColor="@color/branco"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/americancaptain"
+            android:gravity="center"
+            android:text="SISTEMAS"
+            android:textColor="@color/branco"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/aero_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="AERODINAMICA"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+♠
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chassi_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aero_card_manutencao">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="CHASSI"
+                android:textColor="@color/branco"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/eletrica_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chassi_card_manutencao">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="ELÉTRICA"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/freio_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eletrica_card_manutencao">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="FREIO"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/powertrain_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/freio_card_manutencao">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="POWERTRAIN"
+                android:textColor="@color/branco"
+                android:textSize="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/suspensao_card_manutencao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/powertrain_card_manutencao">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="SUSPENSÃO"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</ScrollView>

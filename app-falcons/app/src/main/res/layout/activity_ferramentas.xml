@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FerramentasActivity"
+        android:background="@color/preto">
+
+
+        <ImageView
+            android:id="@+id/image_voltar"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_seta_voltar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="411dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/pequena_logo"
+            app:layout_constraintBottom_toBottomOf="@+id/image_voltar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/image_voltar" />
+
+        <TextView
+            android:id="@+id/textInstrucao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/edosz"
+            android:text="MANUAL DE FERRAMENTAS"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/card1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="70dp"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPdf"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card1">
+
+            <TextView
+                android:id="@+id/textPdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="PDF COMPLETO"
+                android:textColor="@color/branco"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardEpi"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardPdf">
+
+
+            <TextView
+                android:id="@+id/textEpi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="EPI'S"
+                android:textColor="@color/branco"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCorte"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardEpi">
+
+
+            <TextView
+                android:id="@+id/textCorte"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="FERRAMENTAS DE CORTE"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMedicao"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardCorte">
+
+
+            <TextView
+                android:id="@+id/textMedicao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="FERRAMENTAS DE MEDIÇÃO"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAperto"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardMedicao">
+
+            <TextView
+                android:id="@+id/textAperto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="CHAVES DE APERTO"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAlicates"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardAperto">
+
+
+            <TextView
+                android:id="@+id/textAlicates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="ALICATES"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardFuradeiras"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardAlicates">
+
+
+            <TextView
+                android:id="@+id/textFuradeiras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="FURADEIRAS"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSolda"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:focusable="false"
+            app:cardBackgroundColor="@color/card_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardFuradeiras">
+
+
+            <TextView
+                android:id="@+id/textSolda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/americancaptain"
+                android:gravity="center"
+                android:text="FERRO DE SOLDA"
+                android:textColor="@color/branco"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
