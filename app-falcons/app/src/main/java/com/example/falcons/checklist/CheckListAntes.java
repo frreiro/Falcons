@@ -1,4 +1,4 @@
-package com.example.falcons.check;
+package com.example.falcons.checklist;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.falcons.check.Adapters.ItemModel;
-import com.example.falcons.check.Adapters.ItemsAdapterAntes;
+import com.example.falcons.checklist.checklistAdapters.ItemModel;
+import com.example.falcons.checklist.checklistAdapters.ItemsAdapterAntes;
 
 import com.example.falcons.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -56,7 +56,7 @@ public class CheckListAntes extends AppCompatActivity{
 
 
         FragmentTransaction ft = fm.beginTransaction();
-        ft.add(R.id.frameDepois, new com.example.falcons.check.CheckListDepois(nomePiloto, telaAntiga, data));
+        ft.add(R.id.frameDepois, new com.example.falcons.checklist.CheckListDepois(nomePiloto, telaAntiga, data));
         ft.commit();    // add um fragment
 
         ItemsAdapterAntes adapterAntes = new ItemsAdapterAntes(itemModels);

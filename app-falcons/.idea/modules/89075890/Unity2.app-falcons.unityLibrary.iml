@@ -40,10 +40,11 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../../Unity2/unityLibrary/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Unity2/unityLibrary/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: ./../Unity2/unityLibrary/libs/unity-classes.jar" level="project" />
     <orderEntry type="library" name="Gradle: :arcore_client:@aar" level="project" />
     <orderEntry type="library" name="Gradle: :unityandroidpermissions:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: :UnityARCore:@aar" level="project" />
   </component>
 </module>

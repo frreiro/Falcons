@@ -1,4 +1,4 @@
-package com.example.falcons.ui;
+package com.example.falcons.classesExtras;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,8 +22,8 @@ public class Load extends AppCompatActivity {
 
 
         View decorView = getWindow().getDecorView();
-        Ui navbar = new Ui();
-        navbar.hideNavBar(decorView, 900);
+        MudancasTela navbar = new MudancasTela();
+        navbar.escondeBarraDeNavegacao(decorView, 900);
 
         ImageView imagem = (ImageView) findViewById(R.id.loading);
 

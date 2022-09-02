@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -16,8 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.falcons.R;
-import com.example.falcons.check.Adapters.ItemModel;
-import com.example.falcons.ui.PdfClass;
+import com.example.falcons.classesExtras.PdfClass;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
@@ -27,7 +25,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Pattern;
 
 public class ManutencaoActivity extends AppCompatActivity {
@@ -86,7 +83,7 @@ public class ManutencaoActivity extends AppCompatActivity {
                         // Abre o pdfClass com o arquivo do Manual de Manutenção
 
                         PdfClass pdfClass1 = new PdfClass();
-                        pdfClass1.Callpdf(pagSetorPdf,ManutencaoActivity.this,pdfName);
+                        pdfClass1.ChamarTelaPdf(pagSetorPdf,ManutencaoActivity.this,pdfName);
                     }
                 });
                 dialog.setPositiveButton("MELHOR DEPOIS", new DialogInterface.OnClickListener() {

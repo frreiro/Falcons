@@ -10,12 +10,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 
-import com.example.falcons.ui.PdfClass;
-import com.example.falcons.ui.Ui;
+import com.example.falcons.classesExtras.PdfClass;
+import com.example.falcons.classesExtras.MudancasTela;
 
 
 public class FerramentasActivity extends AppCompatActivity implements View.OnClickListener {
 
+    //Define as páginas do docuemento para cada tópico
     int pagPdfCompleto = 0;
     int pagEpi = 3;
     int pagCorte = 4;
@@ -34,11 +35,12 @@ public class FerramentasActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ferramentas);
 
+        //Coloca em tela cheia
         View v = getWindow().getDecorView();
-        Ui navbar = new Ui();
-        navbar.hideNavBar(v, 900);
+        MudancasTela navbar = new MudancasTela();
+        navbar.escondeBarraDeNavegacao(v, 900);
 
-
+        //Traz os componentes do layout e transforma em variáveis
         CardView cardPdf = (CardView) findViewById(R.id.cardPdf);
         CardView cardEpi = (CardView) findViewById(R.id.cardEpi);
         CardView cardCorte = (CardView) findViewById(R.id.cardCorte);
@@ -49,81 +51,68 @@ public class FerramentasActivity extends AppCompatActivity implements View.OnCli
         CardView cardSolda = (CardView) findViewById(R.id.cardSolda);
         ImageView voltar = (ImageView) findViewById(R.id.image_voltar);
 
+        //Add os componentes em um array
         CardView[] click = new CardView[]{ cardPdf, cardEpi,cardCorte,cardMedicao,cardAperto,cardAlicates, cardFuradeiras, cardSolda};
 
+        //Define que os compoenentes dentro do array são clicáveis
         for(int i=0; i<click.length;i++){
             click[i].setOnClickListener(this);
         }
 
+        //Define que os compoenentes voltar é clicável
         voltar.setOnClickListener(this);
-
-
     }
 
 
     @Override
     public void onClick(View view) {
+        //Ao clicar verifica pelo ID do componente
+        //Se o caso existir, irá chamar a tela de pdf passando o pdf que terá que abrir e a página
         switch (view.getId()) {
 
             case R.id.cardPdf:
-
                 PdfClass pdfClass1 = new PdfClass();
-                pdfClass1.Callpdf(pagPdfCompleto,this,pdfName);
+                pdfClass1.ChamarTelaPdf(pagPdfCompleto,this,pdfName);
                 break;
             case R.id.cardEpi:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass2 = new PdfClass();
-                pdfClass2.Callpdf(pagEpi,this,pdfName);
-
-
+                pdfClass2.ChamarTelaPdf(pagEpi,this,pdfName);
                 break;
+
             case R.id.cardCorte:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass3 = new PdfClass();
-                pdfClass3.Callpdf(pagCorte,this,pdfName);
-
+                pdfClass3.ChamarTelaPdf(pagCorte,this,pdfName);
                 break;
+
             case R.id.cardMedicao:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass4 = new PdfClass();
-                pdfClass4.Callpdf(pagMedicao,this,pdfName);
-
-
+                pdfClass4.ChamarTelaPdf(pagMedicao,this,pdfName);
                 break;
+
             case R.id.cardAperto:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass5 = new PdfClass();
-                pdfClass5.Callpdf(pagAperto,this,pdfName);
-
-
+                pdfClass5.ChamarTelaPdf(pagAperto,this,pdfName);
                 break;
+
             case R.id.cardAlicates:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass6 = new PdfClass();
-                pdfClass6.Callpdf(pagAlicates,this,pdfName);
-
-
+                pdfClass6.ChamarTelaPdf(pagAlicates,this,pdfName);
                 break;
+
             case R.id.cardFuradeiras:
 
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass7 = new PdfClass();
-                pdfClass7.Callpdf(pagFuradeiras,this,pdfName);
-
-
+                pdfClass7.ChamarTelaPdf(pagFuradeiras,this,pdfName);
                 break;
+
             case R.id.cardSolda:
-
-                // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass8 = new PdfClass();
-                pdfClass8.Callpdf(pagSolda,this,pdfName);
-
-
+                pdfClass8.ChamarTelaPdf(pagSolda,this,pdfName);
                 break;
 
             case R.id.image_voltar:

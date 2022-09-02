@@ -1,4 +1,4 @@
-package com.example.falcons.check;
+package com.example.falcons.checklist;
 
 import android.content.Intent;
 import android.os.Bundle;

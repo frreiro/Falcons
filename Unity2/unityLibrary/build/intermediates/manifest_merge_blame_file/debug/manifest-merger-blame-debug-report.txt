@@ -6,125 +6,125 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="25"
-8-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml
+8-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml
+9-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml
 10
 11    <uses-feature android:glEsVersion="0x00020000" />
-11-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:20:3-52
-11-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:20:17-49
+11-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:20:3-52
+11-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:20:17-49
 12
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:21:3-65
-13-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:21:20-62
+13-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:21:3-65
+13-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:21:20-62
 14
 15    <uses-feature
-15-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:3-88
+15-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:3-88
 16        android:name="android.hardware.touchscreen"
-16-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:17-60
+16-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:17-60
 17        android:required="false" />
-17-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:61-85
+17-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:22:61-85
 18    <uses-feature
-18-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:3-99
+18-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:3-99
 19        android:name="android.hardware.touchscreen.multitouch"
-19-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:17-71
+19-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:17-71
 20        android:required="false" />
-20-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:72-96
+20-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:23:72-96
 21    <uses-feature
-21-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:3-108
+21-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:3-108
 22        android:name="android.hardware.touchscreen.multitouch.distinct"
-22-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:17-80
+22-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:17-80
 23        android:required="false" />
-23-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:81-105
+23-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:24:81-105
 24
 25    <uses-permission android:name="android.permission.CAMERA" />
-25-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:25:3-63
-25-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:25:20-60
+25-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:25:3-63
+25-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:25:20-60
 26
 27    <uses-feature
-27-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:3-85
+27-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:3-85
 28        android:name="android.hardware.camera.ar"
-28-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:17-58
+28-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:17-58
 29        android:required="true" />
-29-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:59-82
+29-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:26:59-82
 30
 31    <application>
-31-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:4:3-19:17
+31-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:4:3-19:17
 32        <activity
-32-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:5-12:16
+32-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:5-12:16
 33            android:name="com.unity3d.player.UnityPlayerActivity"
-33-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:15-68
+33-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:15-68
 34            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-34-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:182-363
+34-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:182-363
 35            android:hardwareAccelerated="false"
-35-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:364-399
+35-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:364-399
 36            android:launchMode="singleTask"
-36-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:150-181
+36-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:150-181
 37            android:screenOrientation="fullSensor"
-37-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:111-149
+37-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:111-149
 38            android:theme="@style/UnityThemeSelector" >
-38-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:69-110
+38-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 39            <intent-filter>
-39-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:6:7-9:23
+39-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:6:7-9:23
 40                <action android:name="android.intent.action.MAIN" />
-40-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:7:9-61
-40-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:7:17-58
+40-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:7:9-61
+40-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:7:17-58
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:8:9-69
-42-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:8:19-66
+42-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:8:9-69
+42-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:8:19-66
 43            </intent-filter>
 44
 45            <meta-data
-45-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+45-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:7-82
 46                android:name="unityplayer.UnityActivity"
-46-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+46-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:18-58
 47                android:value="true" />
-47-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+47-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:10:59-79
 48            <meta-data
-48-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+48-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:7-78
 49                android:name="android.notch_support"
-49-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+49-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:18-54
 50                android:value="true" />
-50-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+50-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:11:55-75
 51        </activity>
 52
 53        <meta-data
-53-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:5-69
+53-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:5-69
 54            android:name="unity.splash-mode"
-54-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:16-48
+54-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:16-48
 55            android:value="0" />
-55-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:49-66
+55-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:13:49-66
 56        <meta-data
-56-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:5-74
+56-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:5-74
 57            android:name="unity.splash-enable"
-57-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:16-50
+57-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:16-50
 58            android:value="True" />
-58-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:51-71
+58-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:14:51-71
 59        <meta-data
-59-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:5-81
+59-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:5-81
 60            android:name="notch.config"
-60-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:16-43
+60-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:16-43
 61            android:value="portrait|landscape" />
-61-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:44-78
+61-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:15:44-78
 62        <meta-data
-62-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:5-101
+62-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 63            android:name="unity.build-id"
-63-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:16-45
+63-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:16-45
 64            android:value="72b90fb0-75df-471c-9919-8363d484afe8" />
-64-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:46-98
+64-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 65        <meta-data
-65-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:5-88
+65-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:5-88
 66            android:name="unityplayer.SkipPermissionsDialog"
-66-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:16-64
+66-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:16-64
 67            android:value="true" />
-67-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:65-85
+67-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:17:65-85
 68        <meta-data
-68-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:5-77
+68-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:5-77
 69            android:name="com.google.ar.core"
-69-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:16-49
+69-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:16-49
 70            android:value="required" />
-70-->/home/lucasviana/Documentos/Projetos Android/Falcons/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:50-74
+70-->/home/lucasviana/Documentos/Projetos Android/Falcons github/Unity2/unityLibrary/src/main/AndroidManifest.xml:18:50-74
 71    </application>
 72
 73</manifest>

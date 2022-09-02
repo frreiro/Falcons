@@ -1,4 +1,4 @@
-package com.example.falcons.check;
+package com.example.falcons.checklist;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ public class CheckListMenu extends AppCompatActivity {
     }
 
     public void continuar(View view) {
-        Intent intent = new Intent(com.example.falcons.check.CheckListMenu.this, CheckListMotorista.class);
+        Intent intent = new Intent(com.example.falcons.checklist.CheckListMenu.this, CheckListMotorista.class);
         Bundle dataDados = new Bundle();
         dataDados.putString("tipo", "continuar");
         intent.putExtras(dataDados);
@@ -25,7 +25,7 @@ public class CheckListMenu extends AppCompatActivity {
     }
 
     public void comecar(View view) {
-        Intent intent = new Intent(com.example.falcons.check.CheckListMenu.this, CheckListMotorista.class);
+        Intent intent = new Intent(com.example.falcons.checklist.CheckListMenu.this, CheckListMotorista.class);
         Bundle dataDados = new Bundle();
         dataDados.putString("tipo", "começar");
         intent.putExtras(dataDados);

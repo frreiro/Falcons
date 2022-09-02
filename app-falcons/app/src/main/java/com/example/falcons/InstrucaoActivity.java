@@ -3,20 +3,16 @@ package com.example.falcons;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.example.falcons.ui.PdfClass;
-import com.example.falcons.ui.Ui;
+import com.example.falcons.classesExtras.PdfClass;
+import com.example.falcons.classesExtras.MudancasTela;
 
 public class InstrucaoActivity extends AppCompatActivity  implements View.OnClickListener {
 
-    // Paginas onde se encontram os níveis
-
+    //Define as páginas do docuemento para cada tópico
     int pagPdfCompleto = 0;
     int pagNivel3 = 4;
     int pagNivel4 = 22;
@@ -29,23 +25,27 @@ public class InstrucaoActivity extends AppCompatActivity  implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_instrucao);
 
+        //Coloca em tela cheia
         View v = getWindow().getDecorView();
-        Ui navbar = new Ui();
-        navbar.hideNavBar(v, 900);
+        MudancasTela navbar = new MudancasTela();
+        navbar.escondeBarraDeNavegacao(v, 900);
 
-
+        //Traz os componentes do layout e transforma em variáveis
         CardView cardPdf = (CardView) findViewById(R.id.card2);
         CardView cardNivel3 = (CardView) findViewById(R.id.card3);
         CardView cardNivel4 = (CardView) findViewById(R.id.card4);
         CardView cardNivel5 = (CardView) findViewById(R.id.card5);
         ImageView voltar = (ImageView) findViewById(R.id.image_voltar);
 
+        //Add os componentes em um array
         CardView[] click = new CardView[]{cardPdf,cardNivel3,cardNivel4,cardNivel5};
 
+        //Define que os compoenentes dentro do array são clicáveis
         for(int i=0; i<click.length;i++){
             click[i].setOnClickListener(this);
         }
 
+        //Define que os compoenentes voltar é clicável
         voltar.setOnClickListener(this);
 
     }
@@ -54,17 +54,18 @@ public class InstrucaoActivity extends AppCompatActivity  implements View.OnClic
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-
+            //Ao clicar verifica pelo ID do componente
+            //Se o caso existir, irá chamar a tela de pdf passando o pdf que terá que abrir e a página
             case R.id.card2:
                 PdfClass pdfClass1 = new PdfClass();
-                pdfClass1.Callpdf(pagPdfCompleto,this,pdfName);
+                pdfClass1.ChamarTelaPdf(pagPdfCompleto,this,pdfName);
 
                 break;
             case R.id.card3:
 
                 // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass2 = new PdfClass();
-                pdfClass2.Callpdf(pagNivel3,this,pdfName);
+                pdfClass2.ChamarTelaPdf(pagNivel3,this,pdfName);
 
 
                 break;
@@ -72,14 +73,14 @@ public class InstrucaoActivity extends AppCompatActivity  implements View.OnClic
 
                 // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass3 = new PdfClass();
-                pdfClass3.Callpdf(pagNivel4,this,pdfName);
+                pdfClass3.ChamarTelaPdf(pagNivel4,this,pdfName);
 
                 break;
             case R.id.card5:
 
                 // Parametros enviados diretamente para o .DefaultPage
                 PdfClass pdfClass4 = new PdfClass();
-                pdfClass4.Callpdf(pagNivel5,this,pdfName);
+                pdfClass4.ChamarTelaPdf(pagNivel5,this,pdfName);
                 break;
 
             case R.id.image_voltar:

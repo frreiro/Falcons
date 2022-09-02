@@ -1,4 +1,4 @@
-package com.example.falcons.check.Adapters;
+package com.example.falcons.checklist.checklistAdapters;
 
 public class ItemModel {
 

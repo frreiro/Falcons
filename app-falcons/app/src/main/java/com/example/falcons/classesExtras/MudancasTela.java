@@ -1,17 +1,16 @@
-package com.example.falcons.ui;
+package com.example.falcons.classesExtras;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
-import android.view.Window;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class Ui extends AppCompatActivity  {
+public class MudancasTela extends AppCompatActivity  {
 
-    public void hideNavBar (final View y, final int x) {
+    public void escondeBarraDeNavegacao(final View y, final int x) {
 
         // Esconde tanto a barra de navegação e a barra de status .
         y.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION

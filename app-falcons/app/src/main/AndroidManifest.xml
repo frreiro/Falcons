@@ -10,17 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".check.CheckListMenu" />
-        <activity android:name=".check.CheckListAntes" />
-        <activity android:name=".check.CheckListData" />
-        <activity android:name=".check.CheckListMotorista" />
+        <activity android:name=".checklist.CheckListMenu" />
+        <activity android:name=".checklist.CheckListAntes" />
+        <activity android:name=".checklist.CheckListData" />
+        <activity android:name=".checklist.CheckListMotorista" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".FerramentasActivity" />
         <activity android:name=".PdfActivity" />
         <activity android:name=".InstrucaoActivity" />
         <activity android:name=".manutencao.ManutencaoActivity" />
-        <activity android:name=".manutencao.ManutencaoSetores" />
-        <activity android:name=".ui.Load">
+        <activity android:name=".manutencao.ManutencaoMenu" />
+        <activity android:name=".classesExtras.Load">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

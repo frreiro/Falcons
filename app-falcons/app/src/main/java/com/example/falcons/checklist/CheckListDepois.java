@@ -1,4 +1,4 @@
-package com.example.falcons.check;
+package com.example.falcons.checklist;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 //import com.example.falcons.check.backend.AdapterClass;
-import com.example.falcons.check.Adapters.ItemModel;
+import com.example.falcons.checklist.checklistAdapters.ItemModel;
 //import com.example.falcons.check.backend.Names;
 import com.example.falcons.R;
 //import com.example.falcons.check.backend.RecyclerItemClickListener;
-import com.example.falcons.check.Adapters.ItemsAdapterDepois;
+import com.example.falcons.checklist.checklistAdapters.ItemsAdapterDepois;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.example.falcons.check.CheckListDepois#newInstance} factory method to
+ * Use the {@link com.example.falcons.checklist.CheckListDepois#newInstance} factory method to
  * create an instance of this fragment.
  */
 
@@ -52,8 +52,8 @@ public class CheckListDepois extends Fragment {
 
 
 
-    public static com.example.falcons.check.CheckListDepois newInstance() {
-        com.example.falcons.check.CheckListDepois fragment = new com.example.falcons.check.CheckListDepois("", "", "");
+    public static com.example.falcons.checklist.CheckListDepois newInstance() {
+        com.example.falcons.checklist.CheckListDepois fragment = new com.example.falcons.checklist.CheckListDepois("", "", "");
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;

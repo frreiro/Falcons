@@ -3,28 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/checklist_ic_calendario.xml" value="0.371" />
         <entry key="app/src/main/res/drawable/ic_info_1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_arquivos_3ds.xml" value="0.3703125" />
-        <entry key="app/src/main/res/layout/activity_ferramentas.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/activity_ferramentas.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_instrucao.xml" value="0.36231884057971014" />
         <entry key="app/src/main/res/layout/activity_loading.xml" value="0.3703125" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu3d.xml" value="0.1625" />
         <entry key="app/src/main/res/layout/activity_pdf.xml" value="0.36231884057971014" />
+        <entry key="app/src/main/res/layout/checklilst_custom_layout.xml" value="0.3703125" />
         <entry key="app/src/main/res/layout/checklist_antes_activity.xml" value="0.2388888888888889" />
         <entry key="app/src/main/res/layout/checklist_comecar_data_activity.xml" value="0.14492753623188406" />
         <entry key="app/src/main/res/layout/checklist_comecar_motorista_activity.xml" value="0.3703125" />
         <entry key="app/src/main/res/layout/checklist_continue_data.xml" value="0.14492753623188406" />
         <entry key="app/src/main/res/layout/checklist_continue_motorista.xml" value="0.3703125" />
-        <entry key="app/src/main/res/layout/checklist_data_activity.xml" value="0.1625" />
-        <entry key="app/src/main/res/layout/checklist_depois_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/checklist_data_activity.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/checklist_depois_fragment.xml" value="0.25" />
         <entry key="app/src/main/res/layout/checklist_item_view.xml" value="0.25" />
         <entry key="app/src/main/res/layout/checklist_menu.xml" value="0.3703125" />
-        <entry key="app/src/main/res/layout/checklist_motorista_activity.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/checklist_motorista_activity.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_manu.xml" value="0.1" />
         <entry key="app/src/main/res/layout/manutencao_activity.xml" value="0.22" />
         <entry key="app/src/main/res/layout/manutencao_menu.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/manutencao_menu_activity.xml" value="0.3703125" />
         <entry key="app/src/main/res/layout/manutencao_setores_activity.xml" value="0.2" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.371" />
       </map>
     </option>
   </component>

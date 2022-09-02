@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/preto"
     android:orientation="horizontal"
-    tools:context=".ui.Load">
+    tools:context=".classesExtras.Load">
 
     <RelativeLayout
         android:layout_width="match_parent"

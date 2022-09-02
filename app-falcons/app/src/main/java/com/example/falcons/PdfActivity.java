@@ -4,12 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.telecom.Call;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.falcons.ui.Ui;
+import com.example.falcons.classesExtras.MudancasTela;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.util.FitPolicy;
 
@@ -23,24 +21,21 @@ public class PdfActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
 
+        //Coloca em tela cheia
         View v = getWindow().getDecorView();
-        Ui navbar = new Ui();
-        navbar.hideNavBar(v, 900);
-
+        MudancasTela navbar = new MudancasTela();
+        navbar.escondeBarraDeNavegacao(v, 900);
 
 
         Intent intent = getIntent();
 
         //Parametro que recebe o nome do pdf
-
         pdfName = (String) intent.getSerializableExtra("parametro2");
 
         //Parametro que recebe a pagina q vai abrir
-
         int pag = (int) intent.getSerializableExtra("parametro");
 
-
-
+        //configurações da bibliotea pdfView
         PDFView pdfView = findViewById(R.id.pdfView);
         pdfView.fromAsset(pdfName)
                 .enableSwipe(true) // allows to block changing pages using swipe
@@ -57,9 +52,9 @@ public class PdfActivity extends AppCompatActivity {
                 .load();
 
 
-
         ImageView voltar = (ImageView) findViewById(R.id.image_voltar);
 
+        //Ao clicar em voltar seria equivalente ao clicar no botão de voltar do celular
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

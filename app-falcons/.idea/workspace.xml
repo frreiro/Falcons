@@ -15,8 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ceaee83-8e2b-4a42-8cd6-cb8c8b2aad56" name="Default Changelist" comment="correção layout">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle_______Unity2_unityLibrary_libs_unity_classes_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/89075890/Unity2.app-falcons.unityLibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___UnityARCore__aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity2/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity2/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,17 +30,35 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___UnityARCore__aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_______UnityRA2_unityLibrary_libs_unity_classes_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___arcore_client__aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___arcore_client__aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___unityandroidpermissions__aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___unityandroidpermissions__aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1253203169/app-falcons.unityLibrary.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app-falcons.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app-falcons.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/89075890/Unity2.app-falcons.unityLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/89075890/Unity2.app-falcons.unityLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Manual_de_Montagem.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Manual_de_Montagem.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/FerramentasActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/FerramentasActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/InstrucaoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/InstrucaoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/MenuActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/MenuActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/PdfActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/PdfActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/Adapters/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/checklistAdapters/ItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/Adapters/ItemsAdapterAntes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/checklistAdapters/ItemsAdapterAntes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/Adapters/ItemsAdapterDepois.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/checklistAdapters/ItemsAdapterDepois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/CheckListAntes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/CheckListAntes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/CheckListData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/CheckListData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/CheckListDepois.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/CheckListDepois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/CheckListMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/CheckListMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/check/CheckListMotorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/checklist/CheckListMotorista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/manutencao/ManutencaoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/manutencao/ManutencaoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/manutencao/ManutencaoSetores.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/manutencao/ManutencaoMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/ui/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/classesExtras/Load.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/ui/PdfClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/classesExtras/PdfClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/ui/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/falcons/classesExtras/MudancasTela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_loading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_loading.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checklist_antes_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checklist_antes_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checklist_data_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checklist_data_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checklist_depois_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checklist_depois_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checklist_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checklist_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checklist_motorista_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checklist_motorista_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/manutencao_setores_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/manutencao_menu_activity.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +103,10 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1gvSD7XCcZEITCWyrhz39YzUvqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -104,7 +129,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Falcons-Novo/app-falcons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -137,6 +162,7 @@
       <recent name="com.example.falcons" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.falcons" />
       <recent name="com.example.falcons.tresds" />
       <recent name="com.example.falcons.ui" />
       <recent name="com.unity3d.player" />
@@ -287,7 +313,7 @@
       <module name="app-falcons.app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.falcons.check.Adapters.*" />
+          <option name="PATTERN" value="com.example.falcons.checklist.checklistAdapters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,7 +326,7 @@
       <module name="app-falcons.app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.falcons.check.Adapters.*" />
+          <option name="PATTERN" value="com.example.falcons.checklist.checklistAdapters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
