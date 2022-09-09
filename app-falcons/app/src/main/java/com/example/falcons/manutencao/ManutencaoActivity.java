@@ -29,19 +29,20 @@ import java.util.regex.Pattern;
 
 public class ManutencaoActivity extends AppCompatActivity {
 
+    //Define as variáveis globais
     private RecyclerView recyclerManu;
     private String setores;
     private String[] tituloArray;
     private String[] descriptionArray;
     private String[] periodicidadeArray;
-    // Nome do pdf de manutenção - ALTERAR DEPOIS
+
     String pdfName = "Manual_de_Ferramentas.pdf";
     int pagSetorPdf = 0;
 
 
-
     List<Manutencao> listManu = new ArrayList<>();
 
+    //Inicializa o firebase, pegando a instância (url) e cria o caminho em manutencao, ou seja, tudo será adicionado dentro de manutencao
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://falcons-ufformula-default-rtdb.firebaseio.com/");
     DatabaseReference myRef = database.getReference("manutencao");
 
@@ -54,10 +55,6 @@ public class ManutencaoActivity extends AppCompatActivity {
         // Pega a intent de ManutencaoSetores
         Intent it = getIntent();
         setores = it.getStringExtra("setor");
-
-
-
-
 
         // Troca o título da pagina de acordo com os setores
         TextView textSetor = (TextView) findViewById(R.id.text_setor_id);
@@ -100,21 +97,23 @@ public class ManutencaoActivity extends AppCompatActivity {
 
 
 
-        // Inicia e adapta o RecyclerView
+        // Inicia o adapter do RecyclerView
         recyclerManu = (RecyclerView) findViewById(R.id.ManuRecyclerId);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(RecyclerView.VERTICAL);
         recyclerManu.setLayoutManager(llm);
         //FIM DA INICIÇÃO DO RECYCLERVIEW
 
-
+        //Preenche as variáveis tituloArray, descriptionArray, periodicidadeArray de acordo com setor (escolhido no menu)
         criaTitulo();
 
+        //Preenche o objeto Manutencao com os arrays
         for (int i = 0; i < tituloArray.length; i++) {
             Manutencao manutencao = new Manutencao(tirarAcento(setores));
             manutencao.setTitulo(tituloArray[i]);
             manutencao.setPeriodicidade(periodicidadeArray[i]);
             manutencao.setDescription(descriptionArray[i]);
+            //Pega a data -> dia/mes -> da ultima manutenção no banco de dados
             myRef.child(tirarAcento(setores)).child(tirarAcento(tituloArray[i])).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
                 public void onComplete(@NonNull Task<DataSnapshot> task) {
@@ -124,6 +123,7 @@ public class ManutencaoActivity extends AppCompatActivity {
                     else {
                         manutencao.setData(String.valueOf(task.getResult().getValue()));
                         listManu.add(manutencao);
+                        //Aplica o adapter do recyclerView, escolhendo o ManutencaoAdapter como adapter, e passando a listManu (lista com os dados do objeto de manunteçao) como parâmetro
                         recyclerManu.setAdapter(new ManutencaoAdapter(listManu,ManutencaoActivity.this));
                     }
                 }

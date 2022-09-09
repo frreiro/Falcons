@@ -25,7 +25,7 @@ public class ItemsAdapterAntes extends RecyclerView.Adapter<ItemsAdapterAntes.It
     String data; // data do teste
     String fragmento; // antes ou depois
 
-
+    //Inicializa o firebase, pegando a instância (url) e cria o caminho em checklist, ou seja, tudo será adicionado dentro de checklist
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://falcons-ufformula-default-rtdb.firebaseio.com/");
     DatabaseReference myRef = database.getReference("checklist");
 
@@ -49,16 +49,20 @@ public class ItemsAdapterAntes extends RecyclerView.Adapter<ItemsAdapterAntes.It
             holder.textSwitch.setText(item.text);
             holder.aSwitch.setChecked(item.on);
 
+            //Se for a tela de começar cria as os tópicos do checklist no banco inicialmente como falsos
             if("começar".equals(telaAnterior)){
                 escreverNomeFirebase();
                 Log.i("TAG", "onBindViewHolder: "+ data);
             }
 
+            //Pega as informaçoes da list itemModels, configurada em ChecklistAntes
             telaAnterior = item.getTelaAntiga();
             data = item.getData();
             piloto =item.getPiloto();
             fragmento = item.getFragmento();
 
+
+            //Ao cliclar no switch (componente) mudar o seu estado (true/false) e adicionar no banco de dados
             holder.aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {

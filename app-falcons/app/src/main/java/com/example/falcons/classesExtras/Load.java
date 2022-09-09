@@ -20,16 +20,17 @@ public class Load extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
-
+        //Pega o objeto View (controla a tela) e adiciona mudanças na tela, no caso, esconde a barra de navegação
         View decorView = getWindow().getDecorView();
         MudancasTela navbar = new MudancasTela();
         navbar.escondeBarraDeNavegacao(decorView, 900);
 
         ImageView imagem = (ImageView) findViewById(R.id.loading);
 
+        //Começa a animação da imagem
         imagem.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fadeinout));
 
-
+        //Depois de 5s, muda para a tela de menu
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {

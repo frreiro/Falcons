@@ -18,6 +18,7 @@ public class ManutencaoMenu extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manutencao_menu_activity);
 
+        //Traz os componentes do layout e transforma em variáveis
         CardView aerodinamica = (CardView) findViewById(R.id.aero_card_manutencao);
         CardView chassi = (CardView) findViewById(R.id.chassi_card_manutencao);
         CardView eletrica = (CardView) findViewById(R.id.eletrica_card_manutencao);
@@ -26,6 +27,7 @@ public class ManutencaoMenu extends AppCompatActivity implements View.OnClickLis
         CardView suspensao = (CardView) findViewById(R.id.suspensao_card_manutencao);
         ImageView voltar = (ImageView) findViewById(R.id.image_voltar);
 
+        //Define que os compoenentes são clicáveis
         aerodinamica.setOnClickListener(this);
         chassi.setOnClickListener(this);
         eletrica.setOnClickListener(this);
@@ -38,6 +40,8 @@ public class ManutencaoMenu extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View view) {
+        //Ao clicar verifica pelo ID do componente
+        //Se o caso existir, irá chamar a tela de manutenção passando o setor escolhido
         switch (view.getId()) {
             case R.id.aero_card_manutencao:
                 Intent intentAero = new Intent(ManutencaoMenu.this, ManutencaoActivity.class);

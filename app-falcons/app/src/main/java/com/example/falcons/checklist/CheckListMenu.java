@@ -15,7 +15,8 @@ public class CheckListMenu extends AppCompatActivity {
         setContentView(R.layout.checklist_menu);
 
     }
-
+    //As funções são chamadas diretamente do componente em res/layout/checklist_menu.xml
+    //Envia parâmetros para a próxima tela, através do Bundle
     public void continuar(View view) {
         Intent intent = new Intent(com.example.falcons.checklist.CheckListMenu.this, CheckListMotorista.class);
         Bundle dataDados = new Bundle();

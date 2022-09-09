@@ -41,6 +41,7 @@ public class CheckListDepois extends Fragment {
     String telaAntiga;
     String data;
 
+    //Inicializa o firebase, pegando a instância (url) e cria o caminho em checklist, ou seja, tudo será adicionado dentro de checklist
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://falcons-ufformula-default-rtdb.firebaseio.com/");
     DatabaseReference myRef = database.getReference("checklist");
 
@@ -49,8 +50,6 @@ public class CheckListDepois extends Fragment {
         this.telaAntiga = telaAntiga;
         this.data = data;
     }
-
-
 
     public static com.example.falcons.checklist.CheckListDepois newInstance() {
         com.example.falcons.checklist.CheckListDepois fragment = new com.example.falcons.checklist.CheckListDepois("", "", "");
@@ -67,22 +66,29 @@ public class CheckListDepois extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Pega o layout e adapta nesse fragmento
         View view = inflater.inflate(R.layout.checklist_depois_fragment, container, false);
 
+        //Inicia uma list de arrays
         List<ItemModel> itemModels = new ArrayList<>();
-        Log.i("TAG", "onCreateView: "+ itemModels);
 
+        //Cria uma variável que guarda as informações de adapter do recycler view, chamando as configurações do adapter chamado ItemsAdapterAntes
+        // e adicionando a lista itemModels dentro do adapter
         ItemsAdapterDepois adapterDepois = new ItemsAdapterDepois(itemModels);
 
+        // add o reclyclerview
         recyclerView = (RecyclerView) view.findViewById(R.id.checkRecyclerId);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),
                 LinearLayoutManager.VERTICAL, false));
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
-        // add o reclyclerview
 
+        //Recebe o array de strings do @strings contendo as informações de check do checklist
         String[] stringsArray = getResources().getStringArray(R.array.array_list_check);
+
+        //Verifica de onde veio, e adiciona as informações do array no objeto itemModel
+        // em seguida, adiciona o objeto dentro da lista itemModels
+        //configura o adapter para chamar o ItemsAdapterDepois
         if("começar".equals(telaAntiga)){
             for(int i=0; i < stringsArray.length; i++){
                 ItemModel itemModel = new ItemModel(stringsArray[i], false);
@@ -96,6 +102,7 @@ public class CheckListDepois extends Fragment {
             recyclerView.setAdapter(adapterDepois);
         }
 
+        //Realiza a mesma situação do de cima, porém verifica no banco de dados e adiciona os valores que estão lá
         if("continuar".equals(telaAntiga)){
             for(int i=0; i < stringsArray.length; i++){
                 String nomePeca = stringsArray[i];

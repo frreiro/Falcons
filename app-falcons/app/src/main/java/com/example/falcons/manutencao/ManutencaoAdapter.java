@@ -29,12 +29,13 @@ public class ManutencaoAdapter extends RecyclerView.Adapter<ManutencaoAdapter.Ma
     private final List<Manutencao> manutencaoList;
     private final Context context;
 
+    //Recebe a list de dados que o adapter vai usar (criada em ManutencaoActivity)
     public ManutencaoAdapter(List<Manutencao> manutencaoList, Context context) {
         this.manutencaoList = manutencaoList;
         this.context = context;
     }
 
-
+    //Inicializa o firebase, pegando a instância (url) e cria o caminho em manutencao, ou seja, tudo será adicionado dentro de manutencao
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://falcons-ufformula-default-rtdb.firebaseio.com/");
     DatabaseReference myRef = database.getReference("manutencao");
 

@@ -1,5 +1,6 @@
 package com.example.falcons.checklist.checklistAdapters;
 
+//Objeto do Checklist contendo as inforamções de um checklist
 public class ItemModel {
 
     String text;

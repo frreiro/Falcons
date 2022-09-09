@@ -32,11 +32,13 @@ import java.util.List;
 
 public class CheckListAntes extends AppCompatActivity{
 
+    //Define as variáveis globais
     String telaAntiga;
     String nomePiloto;
     String data;
     RecyclerView recyclerView;
 
+    //Inicializa o firebase, pegando a instância (url) e cria o caminho em checklist, ou seja, tudo será adicionado dentro de checklist
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://falcons-ufformula-default-rtdb.firebaseio.com/");
     DatabaseReference myRef = database.getReference("checklist");
 
@@ -47,29 +49,38 @@ public class CheckListAntes extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.checklist_antes_activity);
 
+        //Recebe os parâmetros passados pelo menu
         Bundle bundle = getIntent().getExtras();
         telaAntiga = bundle.getString("remetente");
         nomePiloto = bundle.getString("piloto");
         data = bundle.getString("data");
 
+        //Inicia uma list de arrays
         List<ItemModel> itemModels = new ArrayList<>();
 
-
+        //Adiciona o fragmento -> checklist depois -> fragmento:  pedaço de uma tela ( no caso outra tela ) dinâmica
         FragmentTransaction ft = fm.beginTransaction();
         ft.add(R.id.frameDepois, new com.example.falcons.checklist.CheckListDepois(nomePiloto, telaAntiga, data));
         ft.commit();    // add um fragment
 
+        //Cria uma variável que guarda as informações de adapter do recycler view, chamando as configurações do adapter chamado ItemsAdapterAntes
+        // e adicionando a lista itemModels dentro do adapter
         ItemsAdapterAntes adapterAntes = new ItemsAdapterAntes(itemModels);
 
+
+        // add o reclyclerview
         recyclerView = (RecyclerView) findViewById(R.id.checkRecyclerId);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,
                 LinearLayoutManager.VERTICAL, false));
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
-        // add o reclyclerview
 
-
+        //Recebe o array de strings do @strings contendo as informações de check do checklist
         String[] stringsArray = getResources().getStringArray(R.array.array_list_check);
+
+        //Verifica de onde veio, e adiciona as informações do array no objeto itemModel
+        // em seguida, adiciona o objeto dentro da lista itemModels
+        //configura o adapter para chamar o ItemsAdapterAntes
         if("começar".equals(telaAntiga)){
             for(int i=0; i < stringsArray.length; i++){
                 ItemModel itemModel = new ItemModel(stringsArray[i], false);
@@ -83,6 +94,7 @@ public class CheckListAntes extends AppCompatActivity{
             recyclerView.setAdapter(adapterAntes);
         }
 
+        //Realiza a mesma situação do de cima, porém verifica no banco de dados e adiciona os valores que estão lá
         if("continuar".equals(telaAntiga)){
             for(int i=0; i < stringsArray.length; i++){
                 String nomePeca = stringsArray[i];
@@ -115,19 +127,6 @@ public class CheckListAntes extends AppCompatActivity{
 
     }
 
-//    // abre o dialog
-//    private void openDialog () {
-//        ExempleDialog exempleDialog = new ExempleDialog();
-//        exempleDialog.show(getSupportFragmentManager(), "exemplo dialog");
-//
-//    }
-//
-//    // receber o texto do edittext
-//    @Override
-//    public void aplicarTexto(String observacao) {
-//        Toast.makeText(com.example.falcons.check.CheckListAntes.this, observacao  + " na posição: " + positionLongClick,Toast.LENGTH_LONG).show();
-//        // vai receber o que tiver escrito no editText
-//    }
     public void voltar(View view){
         finish();
         onBackPressed();

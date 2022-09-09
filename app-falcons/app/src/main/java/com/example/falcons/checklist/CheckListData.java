@@ -24,6 +24,7 @@ public class CheckListData extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.checklist_data_activity);
 
+        //Recebe os paraêmtros passados da tela de menu e motorista
         Bundle bundle  = getIntent().getExtras();
         nomePiloto = bundle.getString("piloto");
         tipo = bundle.getString("tipo");
@@ -47,12 +48,13 @@ public class CheckListData extends AppCompatActivity {
         }
     }
 
+    //Formata a data para salvar no banco sem a "/"
     private String formatarData(String data){
         String novaData = data.replaceAll("/", "-");
         return novaData;
     }
 
-
+    //Ajusta o editText para mostrar e adapta as condições de um calendário
     private void ajusteData (final EditText data){
         data.addTextChangedListener(new TextWatcher() {
             private String current = "";

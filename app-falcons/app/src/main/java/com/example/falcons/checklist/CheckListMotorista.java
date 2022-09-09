@@ -17,13 +17,16 @@ public class CheckListMotorista extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.checklist_motorista_activity);
 
-
+        //Recebe os paraêmtros passados da tela de menu
+        //tipo => começar/continuar
         Bundle bundle  = getIntent().getExtras();
         tipo = bundle.getString("tipo");
         motorista = findViewById(R.id.edtMotorista);
 
     }
 
+    //função direto do layout => res/layout/checklist_motorista_activity.xml
+    //Verifica se o edit text não esta vazio e manda para a proxima tela
     public void next(View view) {
         String piloto = motorista.getText().toString().toUpperCase(); // Nome recebido do input
         if( piloto.isEmpty() || piloto.equals(" ")){
