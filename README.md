@@ -17,11 +17,11 @@ Nele o usuário pode:
 ## 📱 Mobile
 
 <p align="center">
-    <img alt="studio.com"  height="400" src="https://user-images.githubusercontent.com/98192816/191975090-077448a5-e0b4-4d31-bfcf-d03b3108a244.png">
-    <img alt="studio.com"  height="400" src="https://user-images.githubusercontent.com/98192816/191973670-a0599c26-2ced-4188-b8a3-bc9101fc04d3.png">
-    <img alt="studio.com"  height="400" src="https://user-images.githubusercontent.com/98192816/191973671-1eb99ef7-ce66-4d8f-98a7-9528d9f7d240.png">
-    <img alt="studio.com"  height="400" src="https://user-images.githubusercontent.com/98192816/191973658-cb10fb84-d9b0-4022-9ca6-59bee80d5fcb.png">
-    <img alt="studio.com"  height="400"src="https://user-images.githubusercontent.com/98192816/191973666-04e2d8db-fdf2-4260-9d70-8c75116033bb.png">
+    <img alt="studio.com"  height="350" src="https://user-images.githubusercontent.com/98192816/191975090-077448a5-e0b4-4d31-bfcf-d03b3108a244.png">
+    <img alt="studio.com"  height="350" src="https://user-images.githubusercontent.com/98192816/191973670-a0599c26-2ced-4188-b8a3-bc9101fc04d3.png">
+    <img alt="studio.com"  height="350" src="https://user-images.githubusercontent.com/98192816/191973671-1eb99ef7-ce66-4d8f-98a7-9528d9f7d240.png">
+    <img alt="studio.com"  height="350" src="https://user-images.githubusercontent.com/98192816/191973658-cb10fb84-d9b0-4022-9ca6-59bee80d5fcb.png">
+    <img alt="studio.com"  height="350"src="https://user-images.githubusercontent.com/98192816/191973666-04e2d8db-fdf2-4260-9d70-8c75116033bb.png">
 </p><br>
 
 ## 🛠 Tecnologias
