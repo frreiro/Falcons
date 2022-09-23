@@ -6,7 +6,7 @@
 ## 💻 Sobre o projeto
 
 O projeto é um aplicativo chamado Falcons, um aplicativo que contém as informações e documentos do projeto de extensão Falcons Uffórmula da Universidade Federal Fluminense, com foco em trazer tecnologia para a apresentação da competição FSAE 2022. 
-Nele o usuário pode 
+Nele o usuário pode:
 - Consultar documentos do projeto, como o manual de ferramentas, o manual de montagem e part numbers. 
 - Observar todas as peças do carro em realidade aumentada.
 - Consultar quando será a manutenção de algum sistema.
